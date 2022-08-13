@@ -97,7 +97,7 @@ public class ForeignServlet extends HttpServlet {
         //连接数据库
         Connection conn = null;
         PreparedStatement ps = null;
-
+        int count1 = 1;
         int count = 0;
 
         try {
